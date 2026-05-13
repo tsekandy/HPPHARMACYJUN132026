@@ -1,0 +1,35 @@
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /functions/
+
+# Disallow sensitive paths
+Disallow: /admin/
+Disallow: /api/private/
+Disallow: /*.json$
+
+# Sitemap location
+Sitemap: https://www.happypillspharmacyltd.com/sitemap.xml
+
+# Crawl delay (in seconds) - be respectful to server resources
+Crawl-delay: 1
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block bad bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
