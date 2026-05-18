@@ -12,8 +12,8 @@ interface Medicine {
 
 const MOCK_MEDICINES: Medicine[] = [
   { id: '1', name: 'Paracetamol 500mg', category: 'Pain Relief', description: 'Over-the-counter pain reliever', inStock: true },
-  { id: '2', name: 'Amoxicillin 250mg', category: 'Antibiotics', description: 'Broad-spectrum antibiotic', inStock: true },
-  { id: '3', name: 'Ibuprofen 200mg', category: 'Pain Relief', description: 'Anti-inflammatory pain reliever', inStock: true },
+  { id: '2', name: 'Semaglutide Ozempic 2mg', category: 'Anti Diabetic', description: 'GLP1 Agonist', inStock: true },
+  { id: '3', name: 'Mounjaro 5mg', category: 'Anti Diabetic', description: 'GLP1 Agonist', inStock: true },
   { id: '4', name: 'Metformin 500mg', category: 'Chronic Care', description: 'Diabetes management', inStock: true },
   { id: '5', name: 'Lisinopril 10mg', category: 'Chronic Care', description: 'Blood pressure control', inStock: true },
   { id: '6', name: 'Omeprazole 20mg', category: 'Digestive Health', description: 'Acid reflux treatment', inStock: true },
